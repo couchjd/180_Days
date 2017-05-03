@@ -1,0 +1,9 @@
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\bin\Debug\Day004_Simon.exe.config
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\bin\Debug\Day004_Simon.exe
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\bin\Debug\Day004_Simon.pdb
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.csprojResolveAssemblyReference.cache
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.Properties.Resources.resources
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.csproj.GenerateResource.Cache
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.exe
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.pdb
+C:\Users\couch\OneDrive\PROGRAMMING\180_Days\Day004_Simon\Day004_Simon\obj\Debug\Day004_Simon.MainForm.resources
