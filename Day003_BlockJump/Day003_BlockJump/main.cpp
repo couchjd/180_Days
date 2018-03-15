@@ -48,18 +48,22 @@ int main() {
 			}
 		}
 
-		if(player.getPosition().x <= 0)
-			player.setPosition(sf::Vector2f(0.f, player.getPosition().y));
-		if(player.getPosition().x + player.getSize().x >= window.getSize().x)
-			player.setPosition(sf::Vector2f(window.getSize().x - player.getSize().x, player.getPosition().y));
-
+    if(player.getPosition().x < 0) {
+      player.setPosition(sf::Vector2f(0.f, player.getPosition().y));
+      player.velocity.x = 0;
+    }
+    if(player.getPosition().x + player.getSize().x > window.getSize().x) {
+      player.setPosition(sf::Vector2f(window.getSize().x - player.getSize().x, player.getPosition().y));
+      player.velocity.x = 0;
+    }
 		player.update(dtAsSeconds);
 		
 		window.clear(sf::Color::Cyan);
 
-		window.draw(player);
+		
 		window.draw(floor);
 		window.draw(sun);
+    window.draw(player);
 
 		window.display();
 	}

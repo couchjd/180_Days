@@ -26,14 +26,14 @@ void Player::doMove(MOVE_DIR direction) {
 			if(velocity.x < -MAX_VELOCITY)
 				velocity.x = -MAX_VELOCITY;
 			else
-				velocity.x += -20.f;
+				velocity.x += -30.f;
 			break;
 
 		case RIGHT:
 			if(velocity.x > MAX_VELOCITY)
 				velocity.x = MAX_VELOCITY;
 			else
-				velocity.x += 20.f;
+				velocity.x += 30.f;
 			break;
 	}
 }
